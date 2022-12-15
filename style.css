@@ -1,0 +1,685 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding-inline-start: 0px; }
+
+.galeriaSorteos {
+
+  margin-bottom: 20px;
+
+}
+
+.carousel-inner {
+
+  width: 80%;
+  margin-left: 10%;
+  align-items: center;
+  height: 20%;
+
+}
+
+.hr {
+  margin-bottom: 10px;
+  color: #323332;
+  margin-left: 25%; }
+
+.subtitulo {
+  letter-spacing: 0.1em;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  color: #323332; }
+
+.subtituloDos {
+  letter-spacing: 0.01em;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  padding-top: 60px;
+  padding-bottom: 10px; }
+
+.tituloDos {
+  font-family: "Arial Black", Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 7px;
+  letter-spacing: 0.222222em;
+  color: #323332; }
+
+footer {
+  background-color: #ffd700;
+  height: 500px;
+  margin-top: 15pxd; }
+  footer .newsletter {
+    width: 70%;
+    height: 100px;
+    background-color: white;
+    text-align: center;
+    padding-top: 1.8%; }
+  footer #boton {
+    height: 40px;
+    width: 140px;
+    background-color: #fced99;
+    font-family: Helvetica, sans-serif;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px; }
+  footer #formulario input {
+    display: inline-flex;
+    justify-content: center;
+    align-self: center; }
+  footer #caja {
+    font-family: Helvetica, sans-serif;
+    color: #fced99;
+    width: 30vw;
+    height: 40px;
+    padding-left: 20px;
+    background-color: #323332;
+    border: none;
+    margin-bottom: 5px; }
+  footer .newsletterFooter {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle; }
+
+.botonDos:hover {
+  background-color: #323332;
+  color: #fced99;
+  transition: 1s; }
+
+#boton:hover {
+  background-color: #323332;
+  color: #fced99;
+  transition: 1s; }
+
+.botonP:hover {
+  background-color: #323332;
+  color: #fced99;
+  transition: 1s; }
+
+menu li:hover {
+  display: flex;
+  background-color: #fced99;
+  transition: 2s; }
+
+.menu li:active {
+  background-color: #fced99; }
+
+.galeriaImg:hover {
+  filter: blur(8px);
+  transition: 1s; }
+
+.galeriaImg2:hover {
+  filter: blur(8px);
+  transition: 1s; }
+
+div .filtro a:hover {
+  font-weight: bold;
+  color: #323332; }
+
+.listaCarrito:hover {
+  font-weight: bolder; }
+
+.listaCarrito a:hover {
+  color: #323332; }
+
+.buttons a:hover {
+  transform: scale(1.5);
+  transition: 0.5s; }
+
+#boton:hover {
+  background-color: #323332;
+  color: #ffd700; }
+
+nav ul li {
+  list-style: none;
+  display: inline-table;
+  float: inline-start;
+  padding-right: 10px;
+  padding-left: 10px;
+  height: 40px; }
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  vertical-align: middle;
+  align-items: center;
+  font-size: 14px; }
+
+.redes {
+  display: flex;
+  justify-content: center; }
+
+.redes a {
+  text-decoration: none;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: #323332;
+  color: #ffffff;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  transition: all .4s ease-in-out;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 5%; }
+
+.textoComunNumero {
+  text-align: center;
+  margin-top: 3%; }
+
+.logoAtypical {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 12px; }
+
+header {
+  background-color: #ffd700;
+  grid-area: header; }
+
+a {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  vertical-align: middle; }
+
+.atypical {
+  display: block;
+  text-align: center;
+  grid-area: imagen-atypical; }
+
+.galeriaItem2 {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.seccionAmarilla {
+  background-color: #ffd700;
+  grid-area: seccion-amarilla; }
+
+.tituloUno {
+  font-family: "Arial Black", Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 7px;
+  letter-spacing: 0.222222em;
+  color: #323332; }
+
+.seccionBlanca {
+  grid-area: seccion-titulos;
+  background-color: white; }
+
+.galeriaContenedor {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 100px;
+  padding: 20px;
+  grid-gap: 10px;
+  padding-top: 40px;
+  grid-area: galeria-contenedor;
+  background-color: white; }
+
+.galeriaContenedor2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 100px;
+  padding: 20px;
+  grid-gap: 10px;
+  padding-top: 40px;
+  padding-bottom: 30px; }
+
+.galeriaItem {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.galeriaImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.galeriaImg2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.newsletter {
+  width: 70%;
+  height: 100px;
+  background-color: white;
+  text-align: center;
+  padding-top: 1.8%; }
+
+#boton {
+  height: 40px;
+  width: 140px;
+  background-color: #fced99;
+  font-family: Helvetica, sans-serif;
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+#formulario input {
+  display: inline-flex;
+  justify-content: center;
+  align-self: center; }
+
+#caja {
+  font-family: Helvetica, sans-serif;
+  color: #fced99;
+  width: 30vw;
+  height: 40px;
+  padding-left: 20px;
+  background-color: #323332;
+  border: none;
+  margin-bottom: 5px; }
+
+.newsletterFooter {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle; }
+
+/*-------------------------------------------------------CSS TIENDA-------------------------------------------------------------------*/
+.hr2 {
+  border-bottom: 8px solid #323332;
+  margin-bottom: 10px;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 40px; }
+
+.hr3 {
+  border-bottom: 8px solid #323332;
+  margin-bottom: 10px;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 80px; }
+
+.tituloTres {
+  font-family: "Arial Black", Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 22px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 7px;
+  letter-spacing: 0.222222em;
+  color: #323332;
+  padding-top: 10px; }
+
+.contenedorProductos {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 6px;
+  padding-top: 20px; }
+
+.filtro {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5px;
+  margin-left: 15px; }
+
+.textoComun {
+  color: #323332;
+  font-family: helvetica;
+  font-size: 15px;
+  padding-bottom: 10px;
+  text-decoration: none; }
+
+.subtituloTres {
+  letter-spacing: 0.1em;
+  font-family: Helvetica, sans-serif;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-bottom: 30px;
+  text-decoration-line: underline; }
+
+.galeriaContenedorDos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 100px;
+  padding: 10px;
+  grid-gap: 10px;
+  padding-top: 40px; }
+
+.galeriaImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+/*---------------------------------------------------------PERSONALIZADOS CSS-----------------------------------------------------------*/
+.imagenUnoP {
+  background-color: white;
+  padding-top: 20px;
+  text-align: center; }
+
+.imagenDosP {
+  background-color: white;
+  padding-top: 20px;
+  margin: auto;
+  text-align: center; }
+
+.botonP {
+  height: 40px;
+  width: 80%;
+  background-color: #fced99;
+  font-family: Helvetica, sans-serif;
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
+  color: #323332;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 30px; }
+
+
+
+.divP {
+  background-color: white;
+  text-align: center; }
+
+/*-----------------------------------------------------CSS NOSOTROS---------------------------------------------------------------------*/
+.valentina {
+  text-decoration: underline;
+  font-weight: bold; }
+
+.foto img {
+  width: 200px;
+  border-radius: 50%;
+  margin-top: 20px; }
+
+.foto {
+  display: flex;
+  justify-content: center; }
+
+.contenedorNosotros {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px; }
+
+.contenedorNosotros div p {
+  font-family: helvetica;
+  font-size: 15px;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%; }
+
+.videos {
+  display: flex;
+  margin-top: 30px;
+  flex-direction: column;
+  text-align: center; }
+
+.videos iframe {
+  padding: 5px;
+  margin-bottom: 50px;
+  width: 80vw;
+  height: 45vh; }
+
+.miNombre {
+  margin-top: 20px;
+  margin-bottom: 10px; }
+
+/*----------------------------------------------------CSS COMUNIDAD--------------------------------------------------------------------*/
+.plugins {
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+/*----------------------------------------------------CSS MAYORISTA--------------------------------------------------------------------*/
+.cuadrito {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 30px;
+  background-color: #ffd700;
+  border: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start; }
+
+.cuadrito p {
+  font-family: helvetica;
+  font-weight: bolder;
+  font-size: 20px;
+  color: #323332; }
+
+.mayorista {
+  width: 70%;
+  margin-left: 15%;
+  background: none;
+  margin-bottom: 40px; }
+
+.mayorista input {
+  width: 100%;
+  height: 100%;
+  background: none;
+  color: #323332;
+  padding-top: 15px;
+  border: none;
+  outline: 0px;
+  font-family: helvetica;
+  font-size: 12px;
+  margin-bottom: 20px;
+  border-bottom: 4px solid #ffd700;
+  text-align: center; }
+
+.mayorista label {
+  width: 100%;
+  color: #323332;
+  border-bottom-width: 100%;
+  font-family: helvetica;
+  font-size: 15px;
+  font-weight: bold; }
+
+.mayorista .botonDos {
+  height: 40px;
+  width: 100%;
+  background-color: #ffd700;
+  background: #ffd700;
+  font-family: Helvetica, sans-serif;
+  border: none;
+  font-size: 17px;
+  color: #323332;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.mayorista textarea {
+  width: 100%;
+  height: 100%;
+  background: none;
+  color: #323332;
+  padding-top: 15px;
+  border: none;
+  outline: 0px;
+  font-family: helvetica;
+  font-size: 12px;
+  margin-bottom: 20px;
+  border-bottom: 4px solid #ffd700; }
+
+.mayorista .radio {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%; }
+
+.mayorista .checkmark {
+  width: 15px;
+  height: 15px; }
+
+/*---------------------------------------------------------CARRITO CSS-------------------------------------------------------------------*/
+.listaCarrito {
+  list-style: none;
+  margin-top: 40px;
+  margin-bottom: 20px; }
+
+.textoComunCarrito {
+  margin-left: 8%;
+  color: #323332;
+  font-family: helvetica;
+  font-size: 1.1rem;
+  padding-bottom: 10px;
+  text-decoration: none;
+  text-decoration: underline; }
+
+.subtituloCuatro {
+  margin-top: 20px;
+  letter-spacing: 0.1em;
+  font-family: Helvetica, sans-serif;
+  text-align: left;
+  font-size: 15px;
+  font-weight: bold;
+  color: #323332;
+  margin-left: 10%; }
+
+.botonTres {
+  height: 40px;
+  background-color: #ffd700;
+  background: #ffd700;
+  font-family: Helvetica, sans-serif;
+  border: none;
+  font-size: 17px;
+  color: #323332;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-left: 1%; }
+
+.radio2 {
+  margin-top: 15px;
+  margin-left: 10%;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%; }
+
+/*------------------------------------------------------responsive----------------------------------------------------------------------*/
+.facebookReviews {
+  display: none; }
+
+.wrapper {
+  display: grid;
+  grid-template-areas: "header"
+ "menu"
+ "imagen-atypical"
+ "seccion-amarilla"
+ "seccion-titulos"
+ "galeria-contenedor"
+ "footer"; }
+
+@media screen and (min-width: 600px) {
+  .contenedorProductos {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 6px;
+    padding-top: 20px; }
+  .galeriaContenedorDos {
+    grid-auto-rows: 150px; }
+  .galeriaContenedor {
+    grid-auto-rows: 150px; }
+  .galeriaContenedor2 {
+    grid-auto-rows: 150px; }
+  .galeriaImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; } }
+
+@media screen and (min-width: 1024px) {
+  .galeriaContenedorDos {
+    grid-auto-rows: 350px; }
+  .galeriaContenedor {
+    grid-auto-rows: 350px; }
+  .galeriaContenedor2 {
+    grid-auto-rows: 350px;
+    row-gap: 20px;
+    column-gap: 20px; }
+  .galeriaImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+  .contenedorP {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white; }
+  .contenedorProductos {
+    grid-template-columns: 1fr 5fr; }
+  .tituloUno {
+    font-size: 40px; }
+  .tituloDos {
+    font-size: 40px; }
+  .tituloTres {
+    font-size: 40px; }
+  .subtitulo {
+    font-size: 20px; }
+  .foto img {
+    width: 350px;
+    border-radius: 50%;
+    margin-top: 20px; }
+  .videos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    padding: 5px;
+    margin-bottom: 50px;
+    height: 500px; }
+  .videos iframe {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+  .facebookReviews {
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px; }
+  .plugins {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center; }
+  .menu ul li a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px; }
+  .menu li {
+    display: inline-flex;
+    -ms-flex-align: center; }
+  .menu ul {
+    margin-bottom: 10px; }
+  .cuadrito {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 50px;
+    background-color: #ffd700;
+    border: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start; }
+  .cuadrito p {
+    font-family: helvetica;
+    font-weight: bolder;
+    font-size: 40px;
+    color: #323332; } }
